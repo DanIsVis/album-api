@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::604688323307:role/LabRole",
+  "executionRoleArn": "arn:aws:iam::246826861197:role/LabRole",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -58,12 +58,12 @@
   ],
   "placementConstraints": [],
   "memory": "512",
-  "taskRoleArn": "arn:aws:iam::604688323307:role/LabRole",
+  "taskRoleArn": "arn:aws:iam::246826861197:role/LabRole",
   "compatibilities": [
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:604688323307:task-definition/AlbumTaskDefinition:13",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:246826861197:task-definition/AlbumTaskDefinition:1",
   "family": "AlbumTaskDefinition",
   "requiresAttributes": [
     {
@@ -120,12 +120,9 @@
     "FARGATE"
   ],
   "networkMode": "awsvpc",
-  "runtimePlatform": {
-    "operatingSystemFamily": "LINUX",
-    "cpuArchitecture": null
-  },
+  "runtimePlatform": null,
   "cpu": "256",
-  "revision": 13,
+  "revision": 1,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
